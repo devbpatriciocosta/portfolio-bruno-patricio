@@ -8,7 +8,7 @@ const StyledNavBar = styled.nav`
   display: flex;
   gap: 30px;
   width: 100%;
-  height: 70px;
+  height: 80px;
   padding: 10px 0;
   position: fixed;
   background-color: ${props => props.theme.background};
