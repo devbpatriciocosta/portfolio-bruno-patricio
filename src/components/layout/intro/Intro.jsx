@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import H1 from "../../../typograph/H1";
 import H6 from "../../../typograph/H6";
+import Button from "../../buttons/Buttons";
 
 const StyledFlex = styled.div`
   display: flex;
@@ -22,9 +23,9 @@ const StyledImageIntro = styled.div`
 
 const StyledContainerIntroInfo = styled.div`
   background-color: ${(props) => props.theme.background};
-  padding: 0 90px;
+  padding: 0 140px;
   gap: 10px;
-  height: 70vh;
+  height: 94vh;
 
   H1 {
     text-align: left;
@@ -52,6 +53,12 @@ const StyledContainerIntroInfo = styled.div`
   }
 `
 
+const StyledContainerButtons = styled.div`
+  display: flex;
+  gap: 80px;
+  padding: 80px 120px;
+`
+
 export default function Intro({ children, image }) {
   return (
     <>
@@ -60,6 +67,10 @@ export default function Intro({ children, image }) {
         <StyledContainerIntroInfo>
           <H1>Olá! Eu sou <br></br>Bruno Patrício</H1>
           <H6>Web dev and passionate learner</H6>
+          <StyledContainerButtons>
+            <Button>Projetos</Button>
+            <Button>Contatos</Button>
+          </StyledContainerButtons>
         </StyledContainerIntroInfo>
       </StyledFlex>
     </>
