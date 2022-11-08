@@ -8,6 +8,12 @@ const StyledFlex = styled.div`
   display: flex;
   color: ${(props) => props.theme.background};
   padding-top: 90px;
+  width: 100%;
+  height: 94vh;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 `
 
 const WIDTH_BREAK = '900px';
@@ -17,15 +23,24 @@ const StyledImageIntro = styled.div`
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 94vh;
+  
+
+  @media (max-width: 1077px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 `
 
 const StyledContainerIntroInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   background-color: ${(props) => props.theme.background};
   padding: 0 140px;
-  gap: 10px;
-  height: 94vh;
+  gap: 0px;
 
   H1 {
     text-align: left;
@@ -39,24 +54,28 @@ const StyledContainerIntroInfo = styled.div`
     min-width: calc(${WIDTH_BREAK} - 100px);
   }
 
-  @media (max-width: ${WIDTH_BREAK}) {
-    width: 100%;
-  }
-
-  display: flex;
-  flex-direction: column;
   overflow-y: auto;
   &:before,
   &:after {
     content: '';
     margin: auto;
   }
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 `
 
 const StyledContainerButtons = styled.div`
   display: flex;
-  gap: 80px;
-  padding: 80px 120px;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 80px 0;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export default function Intro({ children, image }) {
@@ -66,10 +85,11 @@ export default function Intro({ children, image }) {
         <StyledImageIntro image={image} />
         <StyledContainerIntroInfo>
           <H1>Olá! Eu sou <br></br>Bruno Patrício</H1>
-          <H6>Web dev and passionate learner</H6>
+          <H6>Web dev and <br></br>passionate learner</H6>
           <StyledContainerButtons>
             <Button>Projetos</Button>
             <Button>Contatos</Button>
+            <Button>Certificados</Button>
           </StyledContainerButtons>
         </StyledContainerIntroInfo>
       </StyledFlex>
