@@ -8,10 +8,12 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     
   }
+  
   body {
     font-family: 'Roboto', sans-serif;
     background-color: ${(props) => props.theme.background};
   }
+  
   a{
     font-size: 16px;
     font-weight: bold;
