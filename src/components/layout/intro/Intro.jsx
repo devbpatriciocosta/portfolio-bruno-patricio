@@ -4,6 +4,8 @@ import H1 from "../../../typograph/H1";
 import H6 from "../../../typograph/H6";
 import Button from "../../buttons/Buttons";
 
+const WIDTH_BREAK = '900px';
+
 const StyledFlex = styled.div`
   display: flex;
   color: ${(props) => props.theme.background};
@@ -16,16 +18,16 @@ const StyledFlex = styled.div`
   }
 `
 
-const WIDTH_BREAK = '900px';
-
 const StyledImageIntro = styled.div`
-  background-image: url('${(props) => props.image}') ;
-  background-position: left;
+  background-image: url('${(props) => props.image}');
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 90.5vh;
   
 
-  @media (max-width: 1077px) {
+  @media (max-width: 977px) {
     display: none;
   }
 
@@ -37,40 +39,36 @@ const StyledImageIntro = styled.div`
 const StyledContainerIntroInfo = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90.5vh;
   background-color: ${(props) => props.theme.background};
-  padding: 0 140px;
-  gap: 0px;
 
   H1 {
-    text-align: left;
+    text-align: center;
   }
 
   H6 {
     font-weight: lighter;
   }
+`
 
-  @media (min-width: ${WIDTH_BREAK}) {
-    min-width: calc(${WIDTH_BREAK} - 100px);
-  }
-
-  overflow-y: auto;
-  &:before,
-  &:after {
-    content: '';
-    margin: auto;
-  }
+const StyledInfo = styled.div`
 
   @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 `
 
 const StyledContainerButtons = styled.div`
   display: flex;
-  justify-content: space-between;
-  gap: 40px;
+  gap: 15px;
   margin: 80px 0;
+  justify-content: center;
 
   @media (max-width: 425px) {
     flex-direction: column;
@@ -84,8 +82,10 @@ export default function Intro({ children, image }) {
       <StyledFlex>
         <StyledImageIntro image={image} />
         <StyledContainerIntroInfo>
-          <H1>Olá! Eu sou <br></br>Bruno Patrício</H1>
-          <H6>Web dev and <br></br>passionate learner</H6>
+          <StyledInfo>
+            <H1>Olá! Eu sou <br></br>Bruno Patrício</H1>
+            <H6>Web dev and passionate learner</H6>
+          </StyledInfo>
           <StyledContainerButtons>
             <Button>Projetos</Button>
             <Button>Contatos</Button>
