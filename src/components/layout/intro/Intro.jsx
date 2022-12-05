@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+import IconImages from "../../iconImages/IconImages";
 import H1 from "../../../typograph/H1";
 import H6 from "../../../typograph/H6";
 import Button from "../../buttons/Buttons";
@@ -76,6 +77,12 @@ const StyledContainerButtons = styled.div`
   }
 `
 
+const StyledIconContainer = styled.div`
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+`
+
 export default function Intro({ children, image }) {
   return (
     <>
@@ -91,6 +98,18 @@ export default function Intro({ children, image }) {
             <Button>Contatos</Button>
             <Button>Certificados</Button>
           </StyledContainerButtons>
+          <StyledIconContainer>
+            <IconImages imageName="JsIcon" type="svg" />
+            <IconImages imageName="HtmlIcon" type="svg" />
+            <IconImages imageName="CssIcon" type="svg" />
+            <IconImages imageName="GitHubIcon" type="svg" />
+          </StyledIconContainer>
+          <StyledIconContainer>
+            <IconImages imageName="ReactIcon" type="svg" />
+            <IconImages imageName="NextIcon" type="svg" />
+            <IconImages imageName="NodeIcon" type="svg" />
+            <IconImages imageName="MongoDBIcon" type="svg" />
+          </StyledIconContainer>
         </StyledContainerIntroInfo>
       </StyledFlex>
     </>
