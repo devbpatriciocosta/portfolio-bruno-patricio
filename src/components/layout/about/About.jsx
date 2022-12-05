@@ -43,6 +43,7 @@ const StyledContainerIntroInfo = styled.div`
   width: 100%;
   height: 90.5vh;
   background-color: ${(props) => props.theme.background};
+  color: #fec350;
 
   H1 {
     text-align: center;
@@ -65,7 +66,7 @@ const StyledInfo = styled.div`
   }
 `
 
-export default function Intro({ children, image }) {
+export default function AboutMe({ children, image }) {
   return (
     <>
       <StyledFlex>
@@ -81,6 +82,6 @@ export default function Intro({ children, image }) {
   )
 }
 
-Intro.defaultProps = {
+AboutMe.defaultProps = {
   image: 'AboutImage.svg'
 }

@@ -56,6 +56,7 @@ const StyledContainerIntroInfo = styled.div`
 `
 
 const StyledInfo = styled.div`
+  color: #fec350;
 
   @media (max-width: 768px) {
     display: flex;
