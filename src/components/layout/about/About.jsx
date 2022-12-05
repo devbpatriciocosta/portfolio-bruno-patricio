@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+import H1 from '../../../typograph/H1'
 import H6 from "../../../typograph/H6";
 
 const WIDTH_BREAK = '900px';
@@ -70,6 +71,7 @@ export default function Intro({ children, image }) {
       <StyledFlex>
         <StyledImageIntro image={image} />
         <StyledContainerIntroInfo>
+            <H1>Sobre</H1>
           <StyledInfo>
             <H6>Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.</H6>
           </StyledInfo>
