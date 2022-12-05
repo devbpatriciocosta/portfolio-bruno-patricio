@@ -54,7 +54,7 @@ const ProjectText = styled.div`
     color: #FEC350;
     height: 12.05rem;
     width: 30rem;
-    padding: 20px 40px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
