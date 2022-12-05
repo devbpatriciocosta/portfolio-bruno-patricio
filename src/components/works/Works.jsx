@@ -81,7 +81,7 @@ export default function WorksDeveloped() {
             </EachProject>
             <ProjectText>
                 <H3>Challenge do Bem</H3>
-                Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.
+                Landing Page desenvolvida para a ONG Challenge do Bem. Esse projeto foi desenvolvido utilizando ReactJS e Styled Components. Novas features vão ser adicionadas como cadastro de usuário e interface para troca de informações entre os criadores do projeto e os usuários.
             </ProjectText>
         </ProjectsContainer> 
         <ProjectsContainer>
@@ -90,7 +90,7 @@ export default function WorksDeveloped() {
             </EachProject>
             <ProjectText>
                 <H3>ClimaDev</H3>
-                Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.
+                WebSite de previsão do tempo. Desenvolvido utilizando ReactJS, NodeJS e Next JS, além de Styled Components. Foi consumido uma API do OpenWeather para o desenvolvimento, sendo possível obter informações do momento, daqui 3 horas e 6 horas. 
             </ProjectText>
         </ProjectsContainer> 
         <ProjectsContainer>
@@ -99,7 +99,7 @@ export default function WorksDeveloped() {
             </EachProject>
             <ProjectText>
                 <H3>Pokedéx</H3>
-                Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.
+                Esse foi um desafio proposto por uma empresa em um processo seletivo. Foi pedido para utilizar a POKEAPI para a construção de uma pokedéx utilizando ReactJS, NodeJS e NextJS. Como desafio adicional, coloquei a feature de favoritar o pokémon que gostamos.
             </ProjectText>
         </ProjectsContainer> 
         <ProjectsContainer>
@@ -108,7 +108,7 @@ export default function WorksDeveloped() {
             </EachProject>
             <ProjectText>
                 <H3>CRUD de veículos</H3>
-                Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.
+                Esse projeto foi um teste de nivelamento proposto por uma empresa durante um processo seletivo. Aqui vemos um CRUD completo onde é possível adicionar um carro, ver esse carro na HomePage, favoritar o veículo e excluir o veículo. Além do mais, os dados foram criados utilizando o meu próprio banco de dados através do MONGODB
             </ProjectText>
         </ProjectsContainer> 
         <ProjectsContainer>
@@ -117,7 +117,7 @@ export default function WorksDeveloped() {
         </EachProject>
         <ProjectText>
             <H3>SocialDev</H3>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.
+            Este projeto é uma rede social para desenvolvedores. Aqui é possível cadastrar um usuário, acessar a sua HomePage, deixar uma espécie de TWEET e até mesmo editar esse TWEET ou apaga-lo. 
         </ProjectText>
         </ProjectsContainer>
     </MainContainer>
