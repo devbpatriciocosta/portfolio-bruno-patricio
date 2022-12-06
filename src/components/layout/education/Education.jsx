@@ -3,13 +3,13 @@ import H1 from "../../../typograph/H1";
 import H6 from "../../../typograph/H6";
 
 const MainContainer = styled.div`
-    padding: 50px;
+    padding: 80px;
     background-color: ${(props) => props.theme.background};
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 `
 
 const EducationTitle = styled.div`
@@ -17,6 +17,7 @@ const EducationTitle = styled.div`
     align-items: center;
     justify-content: center;
     color: ${(props) => props.theme.primary};
+    margin-bottom: 50px;
 `
 
 const EducationContainer = styled.div`
