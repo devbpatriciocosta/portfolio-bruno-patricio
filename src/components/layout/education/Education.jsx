@@ -32,6 +32,12 @@ const EducationContainer = styled.div`
     text-align: center;
     justify-content: center;
 
+    transition: 0.2s ease-in-out;
+
+    :hover {
+    transform: scale(1.1);
+    }
+
   @media (max-width: 1164px) {
     display: flex;
     flex-direction: column;

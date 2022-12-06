@@ -25,6 +25,12 @@ const ContactTitle = styled.div`
 const InfoData = styled.div`
     display: flex;
     gap: 20px;
+
+    transition: 0.2s ease-in-out;
+
+    :hover {
+    transform: scale(1.1);
+    }
 `
 
 export default function ContactSession () {
@@ -35,21 +41,15 @@ export default function ContactSession () {
             </ContactTitle>
             <InfoData>
                 <IconImages imageName="YellowGitHubIcon" type="svg" />
-                <a href="https://github.com/devbpatriciocosta">
-                    <H3>@devbpatriciocosta</H3>
-                </a> 
+                    <H3><a href="https://github.com/devbpatriciocosta">@devbpatriciocosta </a></H3> 
             </InfoData>
             <InfoData>
                 <IconImages imageName="YellowEmailIcon" type="svg" />
-                <a href="https://mail.google.com/mail/u/0/#inbox">
-                   <H3>bpatriciocosta@gmail.com</H3> 
-                </a>
+                   <H3><a href="https://mail.google.com/mail/u/0/#inbox">bpatriciocosta@gmail.com</a></H3> 
             </InfoData>
             <InfoData>
                 <IconImages imageName="YellowLinkedinIcon" type="svg" />
-                <a href="https://www.linkedin.com/in/brunopatricioc/">
-                    <H3>linkedin.com/in/brunopatricioc/</H3>
-                </a>
+                    <H3><a href="https://www.linkedin.com/in/brunopatricioc/">linkedin.com/in/brunopatricioc/ </a></H3>
             </InfoData>
         </MainContainer>
     )

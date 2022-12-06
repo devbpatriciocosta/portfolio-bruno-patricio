@@ -38,6 +38,12 @@ const EachProject = styled.div`
     justify-content: center;
     gap: 5rem;
 
+    transition: 0.2s ease-in-out;
+
+    :hover {
+    transform: scale(1.1);
+    }
+
   @media (max-width: 1164px) {
     display: flex;
     flex-direction: column;
@@ -77,7 +83,7 @@ export default function WorksDeveloped() {
         </ProjectsTitle> 
         <ProjectsContainer>
             <EachProject>
-                <IconImages imageName="CbIcon" type="svg" />
+                <a href="https://github.com/devbpatriciocosta"><IconImages imageName="CbIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
                 <H3>Challenge do Bem</H3>
@@ -86,7 +92,7 @@ export default function WorksDeveloped() {
         </ProjectsContainer> 
         <ProjectsContainer>
             <EachProject>
-                <IconImages imageName="ClimaDevIcon" type="svg" />
+                <a href="https://github.com/devbpatriciocosta"><IconImages imageName="ClimaDevIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
                 <H3>ClimaDev</H3>
@@ -95,7 +101,7 @@ export default function WorksDeveloped() {
         </ProjectsContainer> 
         <ProjectsContainer>
             <EachProject>
-                <IconImages imageName="PokedexIcon" type="svg" />
+                <a href="https://github.com/devbpatriciocosta"><IconImages imageName="PokedexIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
                 <H3>Pokedéx</H3>
@@ -104,7 +110,7 @@ export default function WorksDeveloped() {
         </ProjectsContainer> 
         <ProjectsContainer>
             <EachProject>
-                <IconImages imageName="CrudIcon" type="svg" />
+                <a href="https://github.com/devbpatriciocosta"><IconImages imageName="CrudIcon" type="svg" /></a> 
             </EachProject>
             <ProjectText>
                 <H3>CRUD de veículos</H3>
@@ -113,7 +119,7 @@ export default function WorksDeveloped() {
         </ProjectsContainer> 
         <ProjectsContainer>
         <EachProject>
-            <IconImages imageName="SocialDevIcon" type="svg" />
+            <a href="https://github.com/devbpatriciocosta"><IconImages imageName="SocialDevIcon" type="svg" /></a> 
         </EachProject>
         <ProjectText>
             <H3>SocialDev</H3>
