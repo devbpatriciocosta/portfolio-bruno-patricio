@@ -5,7 +5,7 @@ import H3 from '../../typograph/H3'
 import IconImages from "../iconImages/IconImages";
 
 const MainContainer = styled.div`
-    margin-top: 100px;
+    padding: 50px;
     background-color: ${(props) => props.theme.secondaryBackground};
 `
 
