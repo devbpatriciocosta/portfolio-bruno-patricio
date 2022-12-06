@@ -63,17 +63,17 @@ export default function Education() {
                <H1> Education </H1> 
             </EducationTitle>
             <EducationContainer>
-                <H6>Web Developer certification in: <br></br>
-JavaScript | HTML5 | CSS3 | ReactJS | NodeJS | NextJS | Styled-Components | SQL/NoSQL</H6>
+                <H6>Certificados em: <br></br>
+JavaScript - TypeScript | HTML5 | CSS3 | ReactJS | NodeJS | NextJS | Styled-Components | SQL/NoSQL</H6>
             </EducationContainer>
             <EducationContainer>
-                <H6>Conhecimento certificado por SejaDev, Alura e D.I.O</H6>
+                <H6>Conhecimentos certificados por SejaDev, Alura e D.I.O</H6>
             </EducationContainer>
             <EducationContainer>
-                <H6>English Fluency Certified by TOEFL Test</H6>
+                <H6>Fluência em Inglês com certificado pelo TOEFL Test</H6>
             </EducationContainer>
             <EducationContainer>
-                <H6>French Intermidiate Level Certified by UFSC</H6>
+                <H6>Nível intermediário de Francês certificado pela UFSC</H6>
             </EducationContainer>
         </MainContainer>
     )
