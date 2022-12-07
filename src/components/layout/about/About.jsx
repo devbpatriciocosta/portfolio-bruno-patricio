@@ -56,13 +56,12 @@ const StyledContainerIntroInfo = styled.div`
 
 const StyledInfo = styled.div`
     width: auto;
-    padding: 100px;
+    padding: 100px 60px;
 
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 `
 
