@@ -47,15 +47,15 @@ export default function ContactSession () {
             </ContactTitle>
             <InfoData>
                 <IconImages imageName="YellowGitHubIcon" type="svg" />
-                <H3><a href="https://github.com/devbpatriciocosta">@devbpatriciocosta </a></H3> 
+                <H3><a href="https://github.com/devbpatriciocosta" target="_blank">@devbpatriciocosta </a></H3> 
             </InfoData>
             <InfoData>
                 <IconImages imageName="YellowEmailIcon" type="svg" />
-                   <H3><a href="https://mail.google.com/mail/u/0/#inbox">bpatriciocosta@gmail.com</a></H3> 
+                   <H3><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">bpatriciocosta@gmail.com</a></H3> 
             </InfoData>
             <InfoData>
                 <IconImages imageName="YellowLinkedinIcon" type="svg" />
-                    <H3><a href="https://www.linkedin.com/in/brunopatricioc/">linkedin.com/in/brunopatricioc/ </a></H3>
+                    <H3><a href="https://www.linkedin.com/in/brunopatricioc/" target="_blank">linkedin.com/in/brunopatricioc/ </a></H3>
             </InfoData>
         </MainContainer>
     )
