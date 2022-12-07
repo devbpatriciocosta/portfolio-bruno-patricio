@@ -31,6 +31,12 @@ const InfoData = styled.div`
     :hover {
     transform: scale(1.1);
     }
+
+    @media (max-width: 425px) {
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+  }
 `
 
 export default function ContactSession () {
@@ -41,7 +47,7 @@ export default function ContactSession () {
             </ContactTitle>
             <InfoData>
                 <IconImages imageName="YellowGitHubIcon" type="svg" />
-                    <H3><a href="https://github.com/devbpatriciocosta">@devbpatriciocosta </a></H3> 
+                <H3><a href="https://github.com/devbpatriciocosta">@devbpatriciocosta </a></H3> 
             </InfoData>
             <InfoData>
                 <IconImages imageName="YellowEmailIcon" type="svg" />
