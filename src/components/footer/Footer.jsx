@@ -8,13 +8,14 @@ const FooterContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 `
 
 export default function Footer () {
     return(
         <FooterContainer>
             <H6>
-                All rights reserved - @devbpatriciocosta - October 2022
+                All rights reserved @devbpatriciocosta October 2022
             </H6>
         </FooterContainer>
     )
