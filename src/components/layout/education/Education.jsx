@@ -67,11 +67,11 @@ export default function Education() {
     return (
         <MainContainer> 
             <EducationTitle>
-               <H1> Education </H1> 
+               <H1> Certificações </H1> 
             </EducationTitle>
             <EducationContainer>
                 <H6>Certificados em: <br></br>
-JavaScript - TypeScript | HTML5 | CSS3 | ReactJS | NodeJS | NextJS | Styled-Components | SQL/NoSQL</H6>
+                    JavaScript - TypeScript | HTML5 | CSS3 | ReactJS | NodeJS | NextJS | Styled-Components | SQL/NoSQL</H6>
             </EducationContainer>
             <EducationContainer>
                 <H6>Conhecimentos certificados por SejaDev, Alura e D.I.O</H6>

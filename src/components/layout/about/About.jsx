@@ -73,7 +73,7 @@ export default function AboutMe({ children, image }) {
         <StyledContainerIntroInfo>
             <H1>Sobre</H1>
           <StyledInfo>
-            <H6>Passionate developer looking for a great team to build Apps and WebPages together. I'm always looking forward to learning new technologies and overcome new challenges. Happy to relocate for any great opportunity.</H6>
+            <H6>Desenvolvedor apaixonado à procura de uma grande equipe para construir aplicativos e páginas da Web juntos. Estou sempre ansioso para aprender novas tecnologias e superar novos desafios. Feliz por se mudar para qualquer grande oportunidade.</H6>
           </StyledInfo>
         </StyledContainerIntroInfo>
       </StyledFlex>
