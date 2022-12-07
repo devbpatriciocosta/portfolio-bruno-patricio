@@ -57,16 +57,16 @@ const RightNavBar = ({ open }) => {
   return (
     <StyledUl open={open}>
       <li>
-        <Link to='home' smooth={true} offset={0} duration={800} >Home</Link>
+        <Link to='intro' smooth={true} offset={0} duration={800} >Home</Link>
       </li>
         <li>
-          <Link to='sobre' smooth={true} offset={-10} duration={800} >Sobre</Link>
+          <Link to='about' smooth={true} offset={-10} duration={800} >Sobre</Link>
         </li>
             <li>
-              <Link to='projetos' smooth={true} offset={10} duration={800} >Projetos</Link>
+              <Link to='works' smooth={true} offset={14} duration={800} >Projetos</Link>
             </li>
             <li>
-              <Link to='certificado' smooth={true} offset={10} duration={800} >Certificados</Link>
+              <Link to='certificado' smooth={true} offset={10} duration={800} >Formação</Link>
             </li>
               <li>
                 <Link to='contato' smooth={true} offset={-70} duration={800} >Contato</Link>

@@ -10,12 +10,23 @@ function HomePage() {
   return (
     <>
       <NavBar />
-      <Intro />
-      <AboutMe />
+      <div id="intro">
+        <Intro />
+      </div>
+      <div id="about">
+        <AboutMe />
+      </div>
+      <div id="works">
       <WorksDeveloped />
-      <Education />
-      <ContactSession />
-      <Footer />
+      </div>
+      <div id="certificado">
+        <Education />
+      </div>
+      <div id="contato">
+        <ContactSession />
+        <Footer />
+      </div>
+      
     </>
   )
 }
