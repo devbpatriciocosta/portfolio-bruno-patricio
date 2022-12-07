@@ -51,7 +51,7 @@ const LeftNav = () => {
   return (
     <StyledUl>
       <li>
-        <Link to="home" smooth={true} offset={0} duration={800}>
+        <Link to="intro" smooth={true} offset={0} duration={800}>
           <p>Bruno Patrício - Web Dev</p>
         </Link>
       </li>
