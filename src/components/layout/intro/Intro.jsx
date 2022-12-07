@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 import IconImages from "../../iconImages/IconImages";
 import H1 from "../../../typograph/H1";
@@ -96,9 +97,15 @@ export default function Intro({ children, image }) {
             <H6>Web dev and passionate learner</H6>
           </StyledInfo>
           <StyledContainerButtons>
-            <Button>Projetos</Button>
-            <Button>Contatos</Button>
-            <Button>Certificados</Button>
+            <Link to='works' smooth={true} offset={14} duration={800} >
+              <Button>Projetos</Button>
+            </Link>
+            <Link to='contato' smooth={true} offset={-70} duration={800} >
+              <Button>Contato</Button>
+            </Link>
+            <Link to='certificado' smooth={true} offset={10} duration={800} >
+              <Button>Certificados</Button>
+            </Link>
           </StyledContainerButtons>
           <StyledIconContainer>
             <IconImages imageName="JsIcon" type="svg" />
