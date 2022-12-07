@@ -6,7 +6,7 @@ const StyledButton = styled.div`
   justify-content: center;
   background-color: ${(props) => props.theme.primary};
   color: ${(props) => props.theme.background};
-  width: 120px;
+  width: 140px;
   height: 50px;
   font-weight: bold;
   border-radius: 10px;
