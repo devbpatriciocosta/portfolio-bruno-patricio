@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a{
-    font-size: 19px;
+    font-size: 21px;
     font-weight: bold;
     color: #fec350;
     text-decoration: none;
