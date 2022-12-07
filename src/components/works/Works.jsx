@@ -51,7 +51,11 @@ const EachProject = styled.div`
   }
 
   @media (max-width: 425px) {
-    width: 300px;
+    width: auto;
+  }
+
+  @media (max-width: 375px) {
+    display: none;
   }
 `
 
