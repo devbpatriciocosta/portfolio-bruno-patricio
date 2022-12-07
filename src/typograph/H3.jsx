@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-const H1 = styled.h1`
+const H3 = styled.h3`
   font-size: 32px;
   font-weight: bold;
   line-height: 77px;
 `
 
-export default H1
+export default H3
