@@ -43,6 +43,7 @@ const StyledUl = styled.ul`
     justify-content: left;
     width: 100%;
     padding: 10px 0;
+    margin-left: 20px;
   }
 `
 
