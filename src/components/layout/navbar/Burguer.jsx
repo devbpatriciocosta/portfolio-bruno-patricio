@@ -8,11 +8,11 @@ const StyledBurguer = styled.div`
   height: 2rem;
   position: fixed;
   top: 15px;
-  right: 20px;
+  right: 5px;
   z-index: 20;
   display: none;
 
-  @media (max-width: 425px){
+  @media (max-width: 502px){
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;

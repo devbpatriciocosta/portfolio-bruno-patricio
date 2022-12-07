@@ -32,7 +32,7 @@ const StyledUl = styled.ul`
     width: 100%;
   }
 
-    @media (max-width: 425px) {
+    @media (max-width: 502px) {
       flex-flow: column nowrap;
       background: ${(props) => props.theme.background};
       background-color: ${(props) => props.theme.background};

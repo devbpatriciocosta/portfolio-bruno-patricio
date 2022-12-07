@@ -12,11 +12,20 @@ const StyledNavBar = styled.nav`
   padding: 10px 0;
   position: fixed;
   background-color: ${props => props.theme.background};
+  z-index: 1;
 
   @media (max-width: 868px) {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 120px;
+  }
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
   }
 `
 

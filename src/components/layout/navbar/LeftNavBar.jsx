@@ -31,11 +31,18 @@ const StyledUl = styled.ul`
     width: 100%;
   }
 
-  @media (max-width: 425px) { 
+  @media (max-width: 502px) { 
     display: flex;
     justify-content: left;
     width: 80%;
-    padding: 15px 0;
+    padding: 10px 0;
+  }
+
+  @media (max-width: 360px) { 
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 10px 0;
   }
 `
 
