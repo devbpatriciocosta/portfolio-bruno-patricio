@@ -67,7 +67,7 @@ export default function Education() {
     return (
         <MainContainer> 
             <EducationTitle>
-               <H1> Certificações </H1> 
+               <H1>Formação</H1> 
             </EducationTitle>
             <EducationContainer>
                 <H6>Certificados em: <br></br>
