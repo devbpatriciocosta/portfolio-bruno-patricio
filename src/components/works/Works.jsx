@@ -115,7 +115,7 @@ export default function WorksDeveloped() {
                 <a href="https://challenge-do-bem-react-js.vercel.app/" target="_blank"><IconImages imageName="CbIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
-                <H3><a href="https://challenge-do-bem-react-js.vercel.app/" target="_blank">Challenge do Bem</a></H3>
+                <H3><a href="https://github.com/AlunosSejaDev/challenge-do-bem-reactJS" target="_blank">Challenge do Bem</a></H3>
                 Landing Page desenvolvida para a ONG Challenge do Bem. Esse projeto foi desenvolvido utilizando ReactJS e Styled Components. Novas features vão ser adicionadas como cadastro de usuário e interface para troca de informações entre os criadores do projeto e os usuários.
             </ProjectText>
         </ProjectsContainer> 
