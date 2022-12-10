@@ -151,7 +151,7 @@ export default function WorksDeveloped() {
             <a href="https://social-dev-devbpatriciocosta.vercel.app/" target="_blank"><IconImages imageName="SocialDevIcon" type="svg" /></a> 
         </EachProject>
         <ProjectText>
-        <H3><a href="https://social-dev-devbpatriciocosta.vercel.app/" target="_blank">SocialDev</a></H3>
+        <H3><a href="https://github.com/devbpatriciocosta/social-dev" target="_blank">SocialDev</a></H3>
             Este projeto é uma rede social para desenvolvedores. Aqui é possível cadastrar um usuário, acessar a sua HomePage, deixar uma espécie de TWEET e até mesmo editar esse TWEET ou apaga-lo. 
         </ProjectText>
         </ProjectsContainer>
