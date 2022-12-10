@@ -133,7 +133,7 @@ export default function WorksDeveloped() {
                 <a href="https://pokedex-fidelize-me-bruno-5pjpbst6n-devbpatriciocosta.vercel.app/" target="_blank"><IconImages imageName="PokedexIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
-                <H3><a href="https://pokedex-fidelize-me-bruno-5pjpbst6n-devbpatriciocosta.vercel.app/" target="_blank">Pokedéx</a></H3>
+                <H3><a href="https://github.com/devbpatriciocosta/pokedex-fidelize.me-bruno" target="_blank">Pokedéx</a></H3>
                 Esse foi um desafio proposto por uma empresa em um processo seletivo. Foi pedido para utilizar a POKEAPI para a construção de uma pokedéx utilizando ReactJS, NodeJS e NextJS. Como desafio adicional, coloquei a feature de favoritar o pokémon que gostamos.
             </ProjectText>
         </ProjectsContainer> 
@@ -142,7 +142,7 @@ export default function WorksDeveloped() {
                 <a href="https://corelab-web-challenge-devbpatriciocosta.vercel.app/" target="_blank"><IconImages imageName="CrudIcon" type="svg" /></a> 
             </EachProject>
             <ProjectText>
-                <H3><a href="https://corelab-web-challenge-devbpatriciocosta.vercel.app/" target="_blank">CRUD de veículos</a></H3>
+                <H3><a href="https://github.com/devbpatriciocosta/corelab-web-challenge-devbpatriciocosta" target="_blank">CRUD de veículos</a></H3>
                 Esse projeto foi um teste de nivelamento proposto por uma empresa durante um processo seletivo. Aqui vemos um CRUD completo onde é possível adicionar um carro, ver esse carro na HomePage, favoritar o veículo e excluir o veículo. Além do mais, os dados foram criados utilizando o meu próprio banco de dados através do MONGODB
             </ProjectText>
         </ProjectsContainer> 
