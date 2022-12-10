@@ -121,10 +121,10 @@ export default function WorksDeveloped() {
         </ProjectsContainer> 
         <ProjectsContainer>
             <EachProject>
-                <a href="https://github.com/devbpatriciocosta" target="_blank"><IconImages imageName="ClimaDevIcon" type="svg" /></a>
+                <a href="https://github.com/devbpatriciocosta/clima-dev" target="_blank"><IconImages imageName="ClimaDevIcon" type="svg" /></a>
             </EachProject>
             <ProjectText>
-                <H3><a href="https://github.com/devbpatriciocosta" target="_blank">ClimaDev</a></H3>
+                <H3><a href="https://github.com/devbpatriciocosta/clima-dev" target="_blank">ClimaDev</a></H3>
                 WebSite de previsão do tempo. Desenvolvido utilizando ReactJS, NodeJS e Next JS, além de Styled Components. Foi consumido uma API do OpenWeather para o desenvolvimento, sendo possível obter informações do momento, daqui 3 horas e 6 horas. 
             </ProjectText>
         </ProjectsContainer> 
