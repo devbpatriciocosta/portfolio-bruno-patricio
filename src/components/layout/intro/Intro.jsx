@@ -48,12 +48,21 @@ const StyledContainerIntroInfo = styled.div`
   background-color: ${(props) => props.theme.background};
 
   H1 {
-    text-align: center;
+    text-align: left;
   }
 
   H6 {
     font-weight: lighter;
   }
+`
+
+const StyledSubIntroInfo = styled.div`
+  background-color: #fec350;
+  width: 65%;
+  margin-left: 333px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
 `
 
 const StyledInfo = styled.div`
@@ -94,8 +103,10 @@ export default function Intro({ children, image }) {
         <StyledContainerIntroInfo>
           <StyledInfo>
             <H1>Olá! Eu sou <br></br>Bruno Patrício</H1>
-            <H6>Web dev and passionate learner</H6>
           </StyledInfo>
+          <StyledSubIntroInfo>
+            <H6>Web dev and passionate learner</H6>
+          </StyledSubIntroInfo>
           <StyledContainerButtons>
             <Link to='works' smooth={true} offset={14} duration={800} >
               <Button>Projetos</Button>
