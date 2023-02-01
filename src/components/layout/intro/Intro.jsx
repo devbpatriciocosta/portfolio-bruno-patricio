@@ -109,8 +109,10 @@ export default function Intro({ children, image }) {
           </StyledContainerButtons>
           <StyledIconContainer>
             <IconImages imageName="JsIcon" type="svg" />
+            <IconImages imageName="typeScriptSVG" type="svg" />
             <IconImages imageName="HtmlIcon" type="svg" />
             <IconImages imageName="CssIcon" type="svg" />
+            <IconImages imageName="styledComponentsIcon" type="svg" />
             <IconImages imageName="GitHubIcon" type="svg" />
           </StyledIconContainer>
           <StyledIconContainer>
