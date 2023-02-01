@@ -6,11 +6,11 @@
 
 #### Para a construção desse portfólio eu utilizei JavaScript, REACT JS e Styled-Components. 
 
--✅ Esse projeto é completamente responsivo e está pronto para implementação de novas funcionalidades, portanto, é escalável! 
--✅ Os próximos passos é aproveitar uma single-page application e fazer com que os visitantes deixem uma mensagem para mim ou consigo ter acesso ao meu contato de forma mais orgânica e simples. 
--✅ Work on correct types and interfaces
--✅ Work on eslint rules
--✅ Work prettier config
+-✅ Esse projeto é completamente responsivo e está pronto para implementação de novas funcionalidades, portanto, é escalável! <br></br>
+-✅ Os próximos passos é aproveitar uma single-page application e fazer com que os visitantes deixem uma mensagem para mim ou consigo ter acesso ao meu contato de forma mais orgânica e simples. <br></br>
+-✅ Work on correct types and interfaces <br></br>
+-✅ Work on eslint rules <br></br>
+-✅ Work prettier config <br></br>
 
 ## Tecnologias utilizadas:
 <div style="display: inline_block"><br>
