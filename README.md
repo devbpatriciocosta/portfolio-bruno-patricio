@@ -1,6 +1,6 @@
 # Hey you! 👋
 
-### É um grande prazer receber a sua visita! <br></br>Seja bem-vindo ao meu portfólio!
+### Seja bem-vindo ao meu portfólio! <br></br> É um grande prazer receber a sua visita!
 
 > Status: Pronto para usar ✅
 
