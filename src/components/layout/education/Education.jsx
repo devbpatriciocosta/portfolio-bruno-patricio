@@ -22,7 +22,7 @@ const EducationTitle = styled.div`
 
 const EducationContainer = styled.div`
     background-color: ${(props) => props.theme.primary};
-    color: black;
+    color: ${(props) => props.theme.black};
     border-radius: 30px;
     height: 100px;
     width: 550px;
@@ -36,6 +36,7 @@ const EducationContainer = styled.div`
 
     :hover {
     transform: scale(1.1);
+    background-color: ${(props) => props.theme.secondary};
     }
 
   @media (max-width: 1164px) {

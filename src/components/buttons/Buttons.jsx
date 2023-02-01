@@ -5,7 +5,7 @@ const StyledButton = styled.div`
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.theme.primary};
-  color: ${(props) => props.theme.background};
+  color: ${(props) => props.theme.black};
   width: 140px;
   height: 50px;
   font-weight: bold;
@@ -18,6 +18,7 @@ const StyledButton = styled.div`
   :hover {
     transform: scale(1.1);
     background-color: ${(props) => props.theme.secondary};
+    border: 2px solid ${(props) => props.theme.primary};
   }
 `
 

@@ -57,7 +57,7 @@ const StyledContainerIntroInfo = styled.div`
 `
 
 const StyledSubIntroInfo = styled.div`
-  background-color: #fec350;
+  background-color: ${(props) => props.theme.primary};
   width: 65%;
   margin-left: 333px;
   padding-left: 20px;
@@ -67,7 +67,7 @@ const StyledSubIntroInfo = styled.div`
 
 const StyledInfo = styled.div`
   margin-top: 60px;
-  color: #fec350;
+  color: ${(props) => props.theme.primary};
 
   @media (max-width: 768px) {
     display: flex;
@@ -95,6 +95,15 @@ const StyledIconContainer = styled.div`
   margin: 10px;
 `
 
+const StyledIcon = styled.div`
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+
+  :hover {
+  transform: scale(1.3);
+}
+`
+
 export default function Intro({ children, image }) {
   return (
     <>
@@ -119,18 +128,38 @@ export default function Intro({ children, image }) {
             </Link>
           </StyledContainerButtons>
           <StyledIconContainer>
-            <IconImages imageName="JsIcon" type="svg" />
-            <IconImages imageName="typeScriptSVG" type="svg" />
-            <IconImages imageName="HtmlIcon" type="svg" />
-            <IconImages imageName="CssIcon" type="svg" />
-            <IconImages imageName="styledComponentsIcon" type="svg" />
-            <IconImages imageName="GitHubIcon" type="svg" />
+            <StyledIcon>
+              <IconImages imageName="JsIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="typeScriptSVG" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="HtmlIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="CssIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="styledComponentsIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="GitHubIcon" type="svg" />
+            </StyledIcon>
           </StyledIconContainer>
           <StyledIconContainer>
-            <IconImages imageName="ReactIcon" type="svg" />
-            <IconImages imageName="NextIcon" type="svg" />
-            <IconImages imageName="NodeIcon" type="svg" />
-            <IconImages imageName="MongoDBIcon" type="svg" />
+              <StyledIcon>
+              <IconImages imageName="ReactIcon" type="svg" />
+              </StyledIcon>
+              <StyledIcon>
+              <IconImages imageName="NextIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="NodeIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="MongoDBIcon" type="svg" />
+            </StyledIcon>
           </StyledIconContainer>
         </StyledContainerIntroInfo>
       </StyledFlex>

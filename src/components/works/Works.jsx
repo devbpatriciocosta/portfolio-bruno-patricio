@@ -56,8 +56,8 @@ const EachProject = styled.div`
 `
 
 const ProjectText = styled.div`
-    background-color: black;
-    color: #FEC350;
+    background-color: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.fontColor};
     height: 12rem;
     width: 30rem;
     padding: 0 30px 20px 30px;
@@ -66,7 +66,7 @@ const ProjectText = styled.div`
     text-align: center;
     justify-content: center;
 
-    a{
+    a {
         font-size: larger;
         transition: all 0.3s;
         position: relative;

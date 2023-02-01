@@ -43,20 +43,21 @@ const StyledContainerIntroInfo = styled.div`
   width: 100%;
   height: 90.5vh;
   background-color: ${(props) => props.theme.background};
-  color: #fec350;
+  color: ${(props) => props.theme.primary};
 
   H1 {
     text-align: center;
-  }
-
-  H6 {
-    font-weight: lighter;
   }
 `
 
 const StyledInfo = styled.div`
     width: auto;
     padding: 100px 60px;
+    line-height: 50px;
+
+    H6 {
+    font-weight: lighter;
+  }
 
   @media (max-width: 768px) {
     display: flex;

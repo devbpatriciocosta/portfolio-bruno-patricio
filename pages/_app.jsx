@@ -14,11 +14,12 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.background};
   }
   
-  a{
+  a {
     font-size: 21px;
     font-weight: bold;
-    color: #fec350;
+    color: ${(props) => props.theme.fontColor};
     text-decoration: none;
+    line-height: 10px;
   }
 `
 
