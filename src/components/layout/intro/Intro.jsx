@@ -63,6 +63,15 @@ const StyledSubIntroInfo = styled.div`
   padding-left: 20px;
   display: flex;
   justify-content: start;
+
+  @media (max-width: 956px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-left: 0px;
+  }
 `
 
 const StyledInfo = styled.div`
@@ -93,6 +102,14 @@ const StyledIconContainer = styled.div`
   display: flex;
   gap: 30px;
   margin: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 410px) {
+    display: flex;
+    gap: 20px;
+  }
 `
 
 const StyledIcon = styled.div`
@@ -140,24 +157,28 @@ export default function Intro({ children, image }) {
             <StyledIcon>
               <IconImages imageName="CssIcon" type="svg" />
             </StyledIcon>
+            </StyledIconContainer>
+            <StyledIconContainer>
             <StyledIcon>
               <IconImages imageName="styledComponentsIcon" type="svg" />
             </StyledIcon>
             <StyledIcon>
               <IconImages imageName="GitHubIcon" type="svg" />
             </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="ReactIcon" type="svg" />
+            </StyledIcon>
           </StyledIconContainer>
           <StyledIconContainer>
-              <StyledIcon>
-              <IconImages imageName="ReactIcon" type="svg" />
-              </StyledIcon>
               <StyledIcon>
               <IconImages imageName="NextIcon" type="svg" />
             </StyledIcon>
             <StyledIcon>
               <IconImages imageName="NodeIcon" type="svg" />
             </StyledIcon>
-            <StyledIcon>
+          </StyledIconContainer>
+          <StyledIconContainer>
+          <StyledIcon>
               <IconImages imageName="MongoDBIcon" type="svg" />
             </StyledIcon>
           </StyledIconContainer>

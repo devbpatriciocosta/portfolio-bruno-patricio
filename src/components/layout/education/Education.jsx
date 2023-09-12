@@ -47,6 +47,14 @@ const EducationContainer = styled.div`
     height: auto;
   }
 
+  @media (max-width: 556px) {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 420px;
+    height: auto;
+  }
+
   @media (max-width: 425px) {
     display: flex;
     flex-direction: column;
