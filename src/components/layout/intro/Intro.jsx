@@ -54,6 +54,14 @@ const StyledContainerIntroInfo = styled.div`
   H6 {
     font-weight: lighter;
   }
+
+  @media (max-width: 335px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+  }
 `
 
 const StyledSubIntroInfo = styled.div`
