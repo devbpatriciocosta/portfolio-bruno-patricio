@@ -160,6 +160,9 @@ export default function Intro({ children, image }) {
               <IconImages imageName="typeScriptSVG" type="svg" />
             </StyledIcon>
             <StyledIcon>
+              <IconImages imageName="logoPHP" type="png" />
+            </StyledIcon>
+            <StyledIcon>
               <IconImages imageName="HtmlIcon" type="svg" />
             </StyledIcon>
             <StyledIcon>
@@ -175,6 +178,9 @@ export default function Intro({ children, image }) {
             </StyledIcon>
             <StyledIcon>
               <IconImages imageName="ReactIcon" type="svg" />
+            </StyledIcon>
+            <StyledIcon>
+              <IconImages imageName="logoFigma" type="png" />
             </StyledIcon>
           </StyledIconContainer>
           <StyledIconContainer>
