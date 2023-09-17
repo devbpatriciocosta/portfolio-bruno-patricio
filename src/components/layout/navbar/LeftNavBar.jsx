@@ -36,6 +36,7 @@ const StyledUl = styled.ul`
     justify-content: left;
     width: 80%;
     padding: 10px 0;
+    
   }
 
   @media (max-width: 360px) { 
@@ -44,6 +45,9 @@ const StyledUl = styled.ul`
     width: 100%;
     padding: 10px 0;
     margin-left: 20px;
+     p{
+      margin-top: 7px;
+     }
   }
 `
 
